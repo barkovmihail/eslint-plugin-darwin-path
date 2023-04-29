@@ -41,7 +41,7 @@ ruleTester.run("public-api-imports", rule, {
       errors: [],
       options: [{
         alias: '@',
-        testFilesPatterns: ['**/*.test.ts', '**/*.test.ts', '**\\StoreDecorator.tsx']
+        testFilesPatterns: ['**/*.test.ts', '**/*.test.ts', '**/StoreDecorator.tsx']
       }],
     }
   ],
