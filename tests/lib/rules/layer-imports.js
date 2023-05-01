@@ -73,7 +73,7 @@ ruleTester.run("layer-imports", rule, {
 
   invalid: [
     {
-      filename: 'C:\\Users\\mikhail\\Desktop\\javascript\\production_project\\src\\entities\\providers',
+      filename: '/Users/mikhail/Desktop/javascript/production_project/src/entities/providers',
       code: "import { addCommentFormActions, addCommentFormReducer } from '@/features/Articl'",
       errors: [{ message: "Слой может импортировать в себя только нижележащие слои (shared, entities, features, widgets, pages, app)"}],
       options: aliasOptions,
