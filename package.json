@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-darwin-path",
-  "version": "0.0.10",
-  "description": "plugin for darwin pet project",
+  "version": "0.0.11",
+  "description": "Eslint plugin for darwin project",
   "keywords": [
     "eslint",
     "eslintplugin",
